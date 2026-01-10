@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from .db import Base, engine, get_db
-from .models import Product
 from .seed import seed_products
 from .models import Product, Cart, CartItem
 from .schemas import CartIn, CartOut, CartItemOut
