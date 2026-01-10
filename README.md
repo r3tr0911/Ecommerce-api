@@ -61,9 +61,11 @@ ECOMMERCE/
 ## 1) Backend
 - cd backend
 - python -m venv .venv
-- source .venv/bin/activate  # Windows: .venv\Scripts\activate
+- source .venv/bin/activate  
+- Windows: source .venv/Scripts/activate
 - pip install -r requirements.txt
-- uvicorn app.main:app --reload
+- uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+
 **API: http://127.0.0.1:8000** 
 
 **Swagger: http://127.0.0.1:8000/docs**

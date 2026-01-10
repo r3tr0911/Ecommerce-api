@@ -17,8 +17,6 @@ export default function ProductList() {
         <div>
             <h2>Productos</h2>
 
-            {error && <p className="badge-err">{error}</p>}
-
             <ul  className="list">
                 {products.map((p) => (
                     <li key={p.id} className="card">

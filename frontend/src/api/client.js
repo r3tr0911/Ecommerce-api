@@ -10,7 +10,7 @@ export async function fetchProducts() {
 export async function saveCart(items) {
     const res = await fetch (`${API_URL}/cart`,{
         method:"POST",
-        headers:{"content-Type": "application/json"},
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({items}),
     });
 
