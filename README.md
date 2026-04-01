@@ -1,6 +1,6 @@
 # 🛒 Mini Ecommerce — React + FastAPI
 
-**Mini ecommerce full-stack** desarrollado como prueba técnica para **SOFTSEGUROS**.  
+**Mini ecommerce full-stack**  
 Permite **listar productos**, **gestionar un carrito** y **guardar el carrito** (con total) en base de datos.
 
 ---
